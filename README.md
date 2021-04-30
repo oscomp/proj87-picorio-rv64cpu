@@ -14,9 +14,9 @@ RIOS Laboratory：https://rioslab.org
 
 ### 项目奖励：
 比赛优胜的团队不仅能获得本比赛所设立的奖项，并且有机会获得以下额外奖励：
-*将获得清华大学summer camp的实习机会，参加面试，争取清华大学研究生的保送名额。
-*与Google Skywater Open Foundry合作，免费提供芯片流片的机会。
-*将获得RISC-V创始人，图灵奖得主Dr. David A. Patterson本人的亲笔签名书一本。
+* 将获得清华大学summer camp的实习机会，参加面试，争取清华大学研究生的保送名额。
+* 与Google Skywater Open Foundry合作，免费提供芯片流片的机会。
+* 将获得RISC-V创始人，图灵奖得主Dr. David A. Patterson本人的亲笔签名书一本。
 
 
 ### 所属赛道
