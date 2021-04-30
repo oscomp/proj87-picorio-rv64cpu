@@ -79,9 +79,8 @@ FreeBSD
 * 乱序执行 (Out-of-Order Execution)
 * 数据预取等等 (Data Prefetching, etc.)
 
-将在FPGA上对扩展的PicoRio处理器之上运行Linux，并根据性能指标performance，power and die area来进行性能评价。 
+本课题将提供PicoRio的RTL代码以及完整工具链，并将在FPGA上对扩展的PicoRio处理器之上运行Linux，并根据性能指标performance，power and die area来进行性能评价。 
 
-将提供开源的RTL代码，完整PicoRoo工具链。
 
 ### 第二题 RISC-V Trusted Execution Environment (TEE) Design based on Physical Memory Protection Unit
 
