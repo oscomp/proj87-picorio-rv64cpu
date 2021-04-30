@@ -35,9 +35,9 @@ RIOS Laboratory：https://rioslab.org
 
 ### 项目导师
 
-王翕
+谭章熹
 
-* email :xi.w@rioslab.org
+* email :os.comp@rioslab.org
 
 
 
