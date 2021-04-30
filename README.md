@@ -37,8 +37,6 @@ RIOS Laboratory：https://rioslab.org
 
 王翕
 
-* gitlab https://github.com/
-
 * email :xi.w@rioslab.org
 
 
@@ -49,23 +47,23 @@ RIOS Laboratory：https://rioslab.org
 
 ### 特征
 
-*开源硬件
-*高性能处理器设计
-*微架构信息安全
-*操作系统协同
+* 开源硬件
+* 高性能处理器设计
+* 微架构信息安全
+* 操作系统协同
 
 
 ### 文档
 
-*PicoRio Specification：https://gitlab.com/picorio/picorio-doc
-*RISC-V Specification: https://riscv.org/technical/specifications/
-*RISC-V Tools https://github.com/riscv/riscv-tools
-*RISC-V GNU Toolchain:https://github.com/riscv/riscv-gnu-toolchain
-*PicoRio RTL Repository: 参赛小组成员请联系导师获取代码访问权限
+* PicoRio Specification：https://gitlab.com/picorio/picorio-doc
+* RISC-V Specification: https://riscv.org/technical/specifications/
+* RISC-V Tools https://github.com/riscv/riscv-tools
+* RISC-V GNU Toolchain:https://github.com/riscv/riscv-gnu-toolchain
+* PicoRio RTL Repository: 参赛小组成员请联系导师获取代码访问权限
 
 ### License
 
-开源协议 FreeBSD
+FreeBSD
 
 
 ## 预期目标
@@ -75,11 +73,11 @@ RIOS Laboratory：https://rioslab.org
 ### 第一题 CPU Design and Performance Optimizations on PicoRio
 
 优化开源CPU PicoRio处理器的性能和设计，可实现的功能拓展包括:
-*多发射 (Multi-issue)
-*多核的缓存一致性设计 (Multicore Cache Coherence)
-*非阻塞式缓存 (Non-blocking Cache)
-*乱序执行 (Out-of-Order Execution)
-*数据预取等等 (Data Prefetching, etc.)
+* 多发射 (Multi-issue)
+* 多核的缓存一致性设计 (Multicore Cache Coherence)
+* 非阻塞式缓存 (Non-blocking Cache)
+* 乱序执行 (Out-of-Order Execution)
+* 数据预取等等 (Data Prefetching, etc.)
 
 将在FPGA上对扩展的PicoRio处理器之上运行Linux，并根据性能指标performance，power and die area来进行性能评价。 
 
@@ -87,13 +85,13 @@ RIOS Laboratory：https://rioslab.org
 
 ### 第二题 RISC-V Trusted Execution Environment (TEE) Design based on Physical Memory Protection Unit
 
-*通过对PiciRio处理器微架构扩展实现基于RISC-V PMP unit的Enclave系统实现。在Enclave环境下支持基本的应用程序执行。
-*利用Linux完成Untrusted OS环境以检测物理内存隔离（Physical Memory Isolation）的效果测试。
-*硬件扩展根据性能指标 performance，power and die area来进行评价。
-*Enclave的整体性能将和第一题所提交的处理器性能对比来判定安全扩展所带来的额外开销。
+* 通过对PiciRio处理器微架构扩展实现基于RISC-V PMP unit的Enclave系统实现。在Enclave环境下支持基本的应用程序执行。
+* 利用Linux完成Untrusted OS环境以检测物理内存隔离（Physical Memory Isolation）的效果测试。
+* 硬件扩展根据性能指标 performance，power and die area来进行评价。
+* Enclave的整体性能将和第一题所提交的处理器性能对比来判定安全扩展所带来的额外开销。
 
 ### 提交内容
-*完整源代码和RTL综合结果
-*Technical Report
-*Runtime Test Evaluation
+* 完整源代码和RTL综合结果
+* Technical Report
+* Runtime Test Evaluation
 
