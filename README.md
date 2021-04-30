@@ -4,9 +4,20 @@
 
 ### 项目描述
 
-RISC-V 国际开源实验室（RIOS）的首个开源 RISC-V 架构微型计算机 PicoRio 可运行完整 Linux。PicoRio 3.0 最终的形态将是基于 RISC-V 的平板电脑/笔记本电脑，其中所有应用程序软件和存储都在云中运行（类似 Chromebook）。
+RISC-V 国际开源实验室（RIOS）的首个开源 RISC-V 架构微型计算机 PicoRio。PicoRio项目涵扩了对Chromium OS内核以及V8 JavaScript 引擎的RISC-V平台移植和支持。 可运行完整的Linux和FreeRTOS系统。PicoRio项目将于2021年完成ARM A75级别的芯片设计和验证，将用于 RISC-V 的平板电脑/笔记本电脑，其中所有应用程序软件和存储都在云中运行（类似 Chromebook）。
 
-本实验的目标是在 PicoRio 上面通过软件和硬件协同的方式，提升整体的系统性能和安全性。
+RIOS Laboratory：https://rioslab.org
+
+
+
+本课题的目标是在 PicoRio 上面通过软件和硬件协同的方式，提升整体的系统性能和安全性。
+
+### 项目奖励：
+比赛优胜的团队不仅能获得本比赛所设立的奖项，并且有机会获得以下额外奖励：
+*将获得清华大学summer camp的实习机会，参加面试，争取清华大学研究生的保送名额。
+*与Google Skywater Open Foundry合作，免费提供芯片流片的机会。
+*将获得RISC-V创始人，图灵奖得主Dr. David A. Patterson本人的亲笔签名书一本。
+
 
 ### 所属赛道
 
@@ -24,11 +35,11 @@ RISC-V 国际开源实验室（RIOS）的首个开源 RISC-V 架构微型计算�
 
 ### 项目导师
 
-谭章熹
+王翕
 
-* github https://github.com/
+* gitlab https://github.com/
 
-* email :
+* email :xi.w@rioslab.org
 
 
 
@@ -36,20 +47,25 @@ RISC-V 国际开源实验室（RIOS）的首个开源 RISC-V 架构微型计算�
 
 中等
 
-
-
 ### 特征
 
-开源硬件
-
+*开源硬件
+*高性能处理器设计
+*微架构信息安全
+*操作系统协同
 
 
 ### 文档
 
+*PicoRio Specification：https://gitlab.com/picorio/picorio-doc
+*RISC-V Specification: https://riscv.org/technical/specifications/
+*RISC-V Tools https://github.com/riscv/riscv-tools
+*RISC-V GNU Toolchain:https://github.com/riscv/riscv-gnu-toolchain
+*PicoRio RTL Repository: 参赛小组成员请联系导师获取代码访问权限
 
 ### License
 
-开源协议
+开源协议 FreeBSD
 
 
 ## 预期目标
@@ -58,13 +74,26 @@ RISC-V 国际开源实验室（RIOS）的首个开源 RISC-V 架构微型计算�
 
 ### 第一题 CPU Design and Performance Optimizations on PicoRio
 
-优化开源CPU PicoRio处理器的性能和设计，可实现的功能拓展包括多发射，多核的缓存一致性设计，乱序执行，数据预取等等
-将在FPGA上对扩展的PicoRio处理器之上运行Linux，并根据性能指标 performance，power and die area来进行性能评价。 
+优化开源CPU PicoRio处理器的性能和设计，可实现的功能拓展包括:
+*多发射 (Multi-issue)
+*多核的缓存一致性设计 (Multicore Cache Coherence)
+*非阻塞式缓存 (Non-blocking Cache)
+*乱序执行 (Out-of-Order Execution)
+*数据预取等等 (Data Prefetching, etc.)
+
+将在FPGA上对扩展的PicoRio处理器之上运行Linux，并根据性能指标performance，power and die area来进行性能评价。 
 
 将提供开源的RTL代码，完整PicoRoo工具链。
 
 ### 第二题 RISC-V Trusted Execution Environment (TEE) Design based on Physical Memory Protection Unit
 
-通过对处理器微架构和操作系统的扩展实现基于RISC-V的Enclave。
+*通过对PiciRio处理器微架构扩展实现基于RISC-V PMP unit的Enclave系统实现。在Enclave环境下支持基本的应用程序执行。
+*利用Linux完成Untrusted OS环境以检测物理内存隔离（Physical Memory Isolation）的效果测试。
+*硬件扩展根据性能指标 performance，power and die area来进行评价。
+*Enclave的整体性能将和第一题所提交的处理器性能对比来判定安全扩展所带来的额外开销。
 
-将在FPGA上对扩展的PicoRio处理器之上运行Linux，并根据性能指标 performance，power and die area来进行评价。
+### 提交内容
+*完整源代码和RTL综合结果
+*Technical Report
+*Runtime Test Evaluation
+
