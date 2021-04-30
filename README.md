@@ -63,7 +63,7 @@ RIOS Laboratory：https://rioslab.org
 
 ### License
 
-FreeBSD
+3-clause BSD
 
 
 ## 预期目标
